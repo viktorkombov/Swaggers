@@ -518,7 +518,7 @@
             "nullable": true
           },
           "region": {
-            "type": "string",
+            "type": "string"
             "nullable": true
           },
           "postalCode": {
