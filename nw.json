@@ -472,24 +472,6 @@
         },
         "additionalProperties": false
       },
-      "ShipperDto": {
-        "type": "object",
-        "properties": {
-          "shipperId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "companyName": {
-            "type": "string",
-            "nullable": true
-          },
-          "phone": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "SupplierDto": {
         "type": "object",
         "properties": {
@@ -518,7 +500,7 @@
             "nullable": true
           },
           "region": {
-            "type": "string"
+            "type": "string",
             "nullable": true
           },
           "postalCode": {
