@@ -2046,7 +2046,7 @@
         ],
         "parameters": [
           {
-            "name": "idid",
+            "name": "id",
             "in": "path",
             "required": true,
             "schema": {
